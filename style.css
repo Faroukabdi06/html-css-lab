@@ -1,0 +1,52 @@
+.image-container{
+    position: relative;
+}
+.farouk{
+    position: absolute;
+    animation-name: flip;
+
+}
+@keyframes flip{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.mycontent{
+    border: 5px solid;
+    box-shadow: 10px 10px 10px 10px lightblue;
+    padding-top: 20px;
+}
+.input{
+  display: inline-block;
+  flex-direction: column;
+  gap: 5px;
+  width: 50%;
+}
+.navbar a{
+    background-color: rgb(139, 126, 126);
+    display: block;
+    padding: 10px;
+    color: black;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    float: left;
+}
+.navbar a:hover{
+    background-color: aqua;
+}
